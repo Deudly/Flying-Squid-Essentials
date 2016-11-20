@@ -23,6 +23,22 @@ module.exports.player = (player, serv) => {
                 player.chat("You name changed sucessfully!");
             }}
     });
+    player.commands.add({
+        base: 'heal',
+		aliases: ['heal'],
+        info: 'Heal you or another player',
+		usage: '/heal',
+        op: true,
+        action(args) {
+            if (args.length === 0){
+                player.updateHealth(20);
+                player.chat(prefix + "You healed yourself!");
+            }/*else{
+                serv.getPlayer(args).updateHealth(20);
+                player.chat(prefix + "You healed " + args + "!");
+                serv.getPlayer(args).chat(prefix + "You have been healed!");
+            }*/}
+    });
 	player.commands.add({
 		
         base: 'msg',
