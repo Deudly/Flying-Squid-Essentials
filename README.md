@@ -25,6 +25,7 @@ Commands:
 /heal : Heal yourself
 /break : Break the block where you are [Work in Progress]
 /afk : Are you afk?
+/suicide : Commit a suicide (kill yourself)
 ```
 
 ##What is Flying Squid?

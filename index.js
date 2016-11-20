@@ -30,6 +30,15 @@ module.exports.player = (player, serv) => {
         action(args) {
            serv.broadcast(prefix + player.username + " is AFK!");
     }});
+    player.commands.add({
+        base: 'suicide',
+        info: 'Commit a suicide',
+		usage: '/suicide',
+        op: true,
+        action(args) {
+           serv.broadcast(prefix + player.username + " suicided! Bye bad world");
+           player.updateHealth(0);
+    }});
 	player.commands.add({
         base: 'nick',
 		aliases: ['nick'],
