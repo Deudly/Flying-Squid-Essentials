@@ -15,3 +15,11 @@ And then add something like this in your settings:
     "startingMessage":"I live!"
   }
 ```
+
+## Features
+
+Commands:
+```
+/ping : Answers, with this you can know the latency you have
+/nick : Change your nickname
+```
