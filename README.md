@@ -23,4 +23,6 @@ Commands:
 /ping : Answers, with this you can know the latency you have
 /nick [NickYouWannaHave] : Change your nickname
 /heal : Heal yourself
+/break : Break the block where you are [Work in Progress]
+/afk : Are you afk?
 ```

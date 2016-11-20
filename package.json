@@ -1,6 +1,6 @@
 {
   "name": "flying-squid-essentials",
-  "version": "2.2.0",
+  "version": "2.3",
   "description": "Essentials plugin for flying-squid server",
   "main": "index.js",
   "scripts": {

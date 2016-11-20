@@ -11,6 +11,25 @@ module.exports.player = (player, serv) => {
             player.chat(prefix + "Pong!");
 		}}	
 	);
+    player.commands.add(
+	{
+		base: 'break',
+        info: 'Breaks the block you are on',
+        op: true,
+        action(args) {
+            //Material is wrong, what is the Material of AIR?
+            serv.setBlock(serv.overworld, player.position/32, "AIR", "AIR");
+            player.chat(prefix + "Magic! That block has been deleted");
+		}}	
+	);
+    player.commands.add({
+        base: 'afk',
+        info: 'Are you afk? Type it',
+		usage: '/afk',
+        op: true,
+        action(args) {
+           serv.broadcast(prefix + player.username + " is AFK!");
+    }});
 	player.commands.add({
         base: 'nick',
 		aliases: ['nick'],
