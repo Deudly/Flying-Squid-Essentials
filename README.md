@@ -26,3 +26,8 @@ Commands:
 /break : Break the block where you are [Work in Progress]
 /afk : Are you afk?
 ```
+
+##What is Flying Squid?
+
+Flying Squid is a 1.8 open source minecraft server made in NodeJS
+[Flying Squid Repository](https://github.com/PrismarineJS/flying-squid)
