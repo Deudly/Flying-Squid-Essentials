@@ -11,7 +11,18 @@ module.exports.player = (player, serv) => {
             player.chat(prefix + "Pong!");
 		}}	
 	);
-	
+	player.commands.add({
+        base: 'nick',
+		aliases: ['nick'],
+        info: 'Changes your nickname',
+		usage: '/nick [TheNickYouWant]',
+        op: true,
+        action(args) {
+            if(args.length >= 1) {
+                player.username = args;
+                player.chat("You name changed sucessfully!");
+            }}
+    });
 	player.commands.add({
 		
         base: 'msg',
