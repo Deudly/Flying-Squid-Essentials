@@ -1,6 +1,7 @@
 #Flying-Squid Essentials
 
 [![NPM version](https://img.shields.io/npm/v/flying-squid-essentials.svg)](https://www.npmjs.com/package/flying-squid-essentials)
+[![NPM Downloads](https://img.shields.io/npm/dt/flying-squid-essentials.svg)](https://www.npmjs.com/package/flying-squid-essentials)
 [![Minecraft version](https://img.shields.io/badge/minecraft%20version-1.8-brightgreen.svg)]()
 
 Essentials plugin for Flying Squid Minecraft Server.
