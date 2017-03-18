@@ -1,4 +1,4 @@
-#Flying-Squid Essentials
+# Flying-Squid Essentials
 
 [![NPM version](https://img.shields.io/npm/v/flying-squid-essentials.svg)](https://www.npmjs.com/package/flying-squid-essentials)
 [![NPM Downloads](https://img.shields.io/npm/dt/flying-squid-essentials.svg)](https://www.npmjs.com/package/flying-squid-essentials)
@@ -29,7 +29,7 @@ Commands:
 /suicide : Commit a suicide (kill yourself)
 ```
 
-##What is Flying Squid?
+## What is Flying Squid?
 
 Flying Squid is a 1.8 open source minecraft server made in NodeJS
 [Flying Squid Repository](https://github.com/PrismarineJS/flying-squid)
