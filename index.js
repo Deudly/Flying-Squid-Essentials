@@ -1,6 +1,8 @@
 var prefix = "[Essentials] ";
-console.log(prefix + "Plugin enabled");
+
 module.exports.player = (player, serv) => {
+    serv.log(prefix + "Plugin enabled");
+    
     player.commands.add(
     {
         base: 'ping',
