@@ -31,5 +31,5 @@ Commands:
 
 ## What is Flying Squid?
 
-Flying Squid is a 1.8 open source minecraft server made in NodeJS
+Flying Squid is a 1.16.1 open source minecraft server made in NodeJS
 [Flying Squid Repository](https://github.com/PrismarineJS/flying-squid)
